@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/country_navogation"
+    app:startDestination="@id/feedFragment">
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.arslan.countryapp.ui.feed.FeedFragment"
+        android:label="FeedFragment" >
+        <action
+            android:id="@+id/action_feedFragment_to_countryFragment"
+            app:destination="@id/countryFragment" />
+        <argument android:name="age"
+            app:argType="integer"
+            android:defaultValue="0"/>
+    </fragment>
+    <fragment
+        android:id="@+id/countryFragment"
+        android:name="com.arslan.countryapp.ui.country.CountryFragment"
+        android:label="CountryFragment" >
+        <action
+            android:id="@+id/action_countryFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
+        <argument android:name="age"
+            app:argType="integer"
+            android:defaultValue="0"/>
+    </fragment>
+
+</navigation>

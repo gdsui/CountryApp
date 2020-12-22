@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_error_tv">18sp</dimen>
+    <dimen name="tv_item_counrty_msrginTop">70dp</dimen>
+    <dimen name="tv_item_marginLeft_country">20dp</dimen>
+    <dimen name="tv_item_region_marginLeft">20dp</dimen>
+    <dimen name="tv_item_marginTop_country">20dp</dimen>
+    <dimen name="image_item_marginTop_country">50dp</dimen>
+    <dimen name="image_item_marginLeft_country">40dp</dimen>
+</resources>
